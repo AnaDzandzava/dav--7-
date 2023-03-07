@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+.flex{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 a{
+    color: #000000; 
+}
+header{
+    margin: 44px auto;
+    display: flex;
+    justify-content: space-between;  
+    width: 1270px; 
+    font-size: 20px;
+}
+header ul{
+    width: 560px; 
+}
+header ul a{
+    color: #000000;
+    padding: 5px 8px;
+    position: relative;
+}
+header ul a.active::before{
+    content: "";
+    width: 5px 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2.5px;
+}
+header img{
+    margin-top: 10px;
+    width: 33.33px;;
+}
+.ordernow{
+    padding: 16px 32px;
+    border-radius: 62px;
+    background-color: #FDC72D;
+    text-align: center;
+
+}
+.mshobeli{
+    display: flex;
+}
+
+/* -------mainis stilebi--------- */
+
+.products {
+   width: 466px;
+   height: 306px;  
+   margin-left: 80px;
+   margin-top: 110px;
+   font-size: 60px;  
+}
+.foods{
+    color: #777776;
+    width: 394px;
+    height: 87px;
+    font-size: 22px;
+    position: absolute;
+    top: 36px;
+    margin-left: 80px;
+    
+} 
+.getstarted{  
+    width: 180px;
+    padding: 16px 32px;
+    border-radius: 62px;
+    background-color: #FDC72D;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 81px;
+}
+.imgmshobeli{
+    display: flex;
+}
+.surati{
+    width: 871px;
+    height: 723px;
+}
+.container{
+    display: flex;
+}  
+
+
+/*---- meore htmlis kodebi----- */
+.foods{
+    color: #777776;
+    width: 511px;
+    height: 105px;
+    margin-top: 500px;
+    font-size: 22px;
+    
+} 
+
+.container2{
+    display: flex;
+   
+}
+.safety{
+    width: 332px;
+    height: 162px;
+    font-size: 40px;
+    margin-top: 300px;
+
+}
+.when{
+    color: #777776;
+    font-size: 22px;
+    width: 502px;
+
+}
+.surati{
+    width: 745px;
+    height: 492px;
+    margin-top: 250px;
+}
